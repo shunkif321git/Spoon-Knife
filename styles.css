@@ -1,17 +1,28 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
 }
 
 #octocat {
   display: block;
-  width:384px;
+  width: 60%;
+  max-width: 384px;
   margin: 50px auto;
 }
 
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  font: 24px Monaco, "Courier New", monospace;
+  text-align: center;
 }
